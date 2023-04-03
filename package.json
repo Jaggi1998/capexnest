@@ -1,0 +1,24 @@
+{
+  "name": "capexnest",
+  "version": "1.0.0",
+  "description": "\"# capexnest\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaggi1998/capexnest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaggi1998/capexnest/issues"
+  },
+  "homepage": "https://github.com/Jaggi1998/capexnest#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
