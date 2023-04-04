@@ -1,6 +1,9 @@
 var express = require("express");
 const bodyParser = require('body-parser');
 var app = express();
+
+const PORT = process.env.PORT || 8080;
+
 require('./db/conn');
  
 app.use(express.static('public'));
@@ -13,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-const PORT = process.env.PORT || 8080;
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on PORT ${PORT}`);
